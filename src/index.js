@@ -6,8 +6,8 @@ import localeEnMessages from "./locales/en";
 
 import JobsList from "./components/jobslist";
 // get browser language without the region code
-//const language = navigator.language.split(/[-_]/)[0];
-const language="en"
+const language = navigator.language.split(/[-_]/)[0];
+//const language="en"
 
 const messages = {
     'en': localeEnMessages,
